@@ -65,6 +65,7 @@ If the user says "just analyze", proceed with explicit `[ASSUMPTION]` tags inste
 | `/startup check` | Quick mid-hackathon health check (5 min) | `references/scorecard.md` |
 
 Read only the reference file(s) the mode needs. They live next to this file.
+`references/sources.md`: only load when the user asks where a rule comes from.
 
 ---
 

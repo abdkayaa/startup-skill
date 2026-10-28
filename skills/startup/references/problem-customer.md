@@ -29,3 +29,6 @@ Judges score against the challenge. Map the idea to the theme statement in one s
 - Ask 5 people who match the target: "When did you last face X? What did you do?" (past behavior, not opinions)
 - Never ask "Would you use this?" — everyone says yes.
 - Record one real quote for the pitch.
+- **Bad data filter:** compliments, generalities ("I usually…") and future promises ("I would…") are not evidence. (Fitzpatrick, The Mom Test)
+- **Commitment signal:** an email for the waitlist, a pilot slot, a pre-payment or a calendar invite counts; praise does not. (Fitzpatrick, The Mom Test)
+- 5 short interviews cleaned of bad data beat 20 shallow ones — the hackathon version of "talk to users". [YORUM]

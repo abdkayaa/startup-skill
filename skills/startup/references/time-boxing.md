@@ -19,5 +19,8 @@ Build the plan from the remaining hours `T`. Percentages adapt to any length (24
 ## Checkpoints
 At 25%, 50%, 65%, 85%: run `/startup check`. If the core loop isn't working at 50%, cut scope immediately — do not "push through".
 
+**Pivot gate (~35%):** one decision — if validation is weak, change segment or problem now. After the gate, no pivots; feature freeze still applies to scope. (Ries, Lean Startup)
+**Channel mini-test:** in the last block, spend 1–2h testing the chosen channel (waitlist form, one community post) and show the number. (Weinberg & Mares, Traction — scaled down)
+
 ## Sleep
 For 24–48h events, a planned 3–4h sleep beats an all-nighter before the pitch. Put it in the plan.

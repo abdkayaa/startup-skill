@@ -10,6 +10,7 @@ Competition always exists: a direct product, an indirect substitute, a manual pr
 ## Differentiation sentence
 **"Unlike [alternative], [product] [does X], so [user] gets [outcome]."**
 If "X" is "uses AI", it is not a differentiator in 2026 — everyone does. Differentiate on workflow, data, distribution, niche, or trust.
+Make the difference measurable (minutes saved, cost cut, steps removed). A marginal improvement is a red flag — aim for an order-of-magnitude gain on one dimension. (Thiel, Zero to One)
 
 ## Market size — honest version
 Skip fake TAM slides. Prefer bottom-up:

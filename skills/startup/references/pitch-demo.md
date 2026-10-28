@@ -5,6 +5,7 @@
 |---|---|---|
 | 0:00–0:20 | Hook | A real person + their pain (quote from venue interviews if possible) |
 | 0:20–0:45 | Problem | Cost of the problem, current alternative and why it fails |
+| | ↳ Secret | One line: what most people miss about this problem (Thiel, Zero to One) |
 | 0:45–1:45 | Demo | Live core loop, happy path only |
 | 1:45–2:15 | Business | Who pays, how much, back-of-envelope |
 | 2:15–2:40 | Market & edge | Alternatives, differentiation sentence |
@@ -35,4 +36,6 @@ Ask the 10 hardest questions a skeptical jury would ask, one category each:
 8. Risk: "What's the biggest reason this fails?"
 9. Team: "Why are you the team to build this?"
 10. Theme: "How does this answer the challenge?"
+11. Impact: "Who is better off, and by how much?" (commonly used criterion)
+Screening warning: judges often get ~3 min per team and narrow to finalists first — the point must be clear in the first 60 seconds. (MLH Judging Plan)
 Then grade the team's answers 1–5 and give a tightened 2-sentence model answer for each weak one.

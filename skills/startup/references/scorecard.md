@@ -11,6 +11,7 @@ Score 1–5 with a one-line justification. Never give 5 without evidence.
 | 5 | Business model | 15% | "Ads/freemium" with no logic | Clear payer, price anchor, plausible math |
 | 6 | Differentiation | 10% | "Uses AI" / "no competitors" | Sharp one-liner vs. named alternatives |
 | 7 | Demo readiness | 15% | Breaks / no fallback | ≤3 steps, seeded data, backup ready |
+| 9 | Impact | (bonus, unweighted) | Unclear who benefits | Named beneficiary, sized outcome (commonly used criterion) |
 | 8 | Pitch narrative | 10% | Tech-first, over time | Hook→problem→demo→money→ask, rehearsed |
 
 **Weighted total** = Σ(score × weight) → out of 5.
@@ -24,4 +25,6 @@ Score 1–5 with a one-line justification. Never give 5 without evidence.
 3. Anything being built that the jury won't see?
 4. Can the team say who pays and how much in one sentence?
 5. Is a demo fallback ready?
+6. Has the riskiest assumption been tested? (Ries, Lean Startup)
+7. Is there exactly one acquisition channel? (Weinberg & Mares, Traction)
 Output: 🟢/🟡/🔴 per item + the one thing to do next.

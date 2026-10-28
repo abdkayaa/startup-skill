@@ -19,6 +19,18 @@ A product is not a startup until someone can pay for it — or someone pays beca
 | Grants / public procurement | Social impact, gov tech | Not scalable alone |
 | Data / insights | Unique aggregated data | Privacy/KVKK/GDPR risk |
 
+## First 100 customers — one channel
+List candidate channels, shortlist 3, pick 1 for the pitch: "first 100 customers come from [channel] because [reason]". (Weinberg & Mares, Traction — Bullseye)
+
+## 5 parts check
+One line each: value creation, marketing, sales, delivery, finance. An empty line is a weakness to name. (Kaufman, The Personal MBA)
+
+## Default alive one-liner
+"With [price] and [growth], revenue covers [main cost] by [month]." If it can't be written, say what must be true. (Graham, Default Alive or Default Dead?)
+
+## Lean Canvas (optional summary)
+9 boxes: problem, segments, unique value prop, solution, channels, revenue, costs, key metrics, unfair advantage. Use only as a one-page recap. (Maurya, Running Lean)
+
 ## Price anchor
 Give a concrete number and its comparison: "₺149/month — less than one hour of the accountant's time it replaces."
 

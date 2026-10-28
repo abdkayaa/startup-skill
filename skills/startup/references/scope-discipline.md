@@ -2,6 +2,9 @@
 
 A product that keeps growing never ships. At a hackathon, an unfinished feature is worth **negative** points: it costs time and breaks the demo.
 
+## Riskiest assumption first
+In the first ~2 hours, write down the one assumption that kills the project if false (users want it, data exists, API works). The first KEEP item must test it. (Ries, Lean Startup)
+
 ## The Core Loop
 Define the single loop that proves value: **Input → Magic → Output** the user cares about.
 Everything not on this loop is CUT or LATER.

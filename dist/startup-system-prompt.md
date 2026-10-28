@@ -62,6 +62,7 @@ If the user says "just analyze", proceed with explicit `[ASSUMPTION]` tags inste
 | `/startup check` | Quick mid-hackathon health check (5 min) | `references/scorecard.md` |
 
 Read only the reference file(s) the mode needs. They live next to this file.
+`references/sources.md`: only load when the user asks where a rule comes from.
 
 ---
 
@@ -168,6 +169,18 @@ A product is not a startup until someone can pay for it — or someone pays beca
 | Grants / public procurement | Social impact, gov tech | Not scalable alone |
 | Data / insights | Unique aggregated data | Privacy/KVKK/GDPR risk |
 
+## First 100 customers — one channel
+List candidate channels, shortlist 3, pick 1 for the pitch: "first 100 customers come from [channel] because [reason]". (Weinberg & Mares, Traction — Bullseye)
+
+## 5 parts check
+One line each: value creation, marketing, sales, delivery, finance. An empty line is a weakness to name. (Kaufman, The Personal MBA)
+
+## Default alive one-liner
+"With [price] and [growth], revenue covers [main cost] by [month]." If it can't be written, say what must be true. (Graham, Default Alive or Default Dead?)
+
+## Lean Canvas (optional summary)
+9 boxes: problem, segments, unique value prop, solution, channels, revenue, costs, key metrics, unfair advantage. Use only as a one-page recap. (Maurya, Running Lean)
+
 ## Price anchor
 Give a concrete number and its comparison: "₺149/month — less than one hour of the accountant's time it replaces."
 
@@ -202,6 +215,7 @@ Competition always exists: a direct product, an indirect substitute, a manual pr
 ## Differentiation sentence
 **"Unlike [alternative], [product] [does X], so [user] gets [outcome]."**
 If "X" is "uses AI", it is not a differentiator in 2026 — everyone does. Differentiate on workflow, data, distribution, niche, or trust.
+Make the difference measurable (minutes saved, cost cut, steps removed). A marginal improvement is a red flag — aim for an order-of-magnitude gain on one dimension. (Thiel, Zero to One)
 
 ## Market size — honest version
 Skip fake TAM slides. Prefer bottom-up:
@@ -223,6 +237,7 @@ Skip fake TAM slides. Prefer bottom-up:
 |---|---|---|
 | 0:00–0:20 | Hook | A real person + their pain (quote from venue interviews if possible) |
 | 0:20–0:45 | Problem | Cost of the problem, current alternative and why it fails |
+| | ↳ Secret | One line: what most people miss about this problem (Thiel, Zero to One) |
 | 0:45–1:45 | Demo | Live core loop, happy path only |
 | 1:45–2:15 | Business | Who pays, how much, back-of-envelope |
 | 2:15–2:40 | Market & edge | Alternatives, differentiation sentence |
@@ -253,6 +268,8 @@ Ask the 10 hardest questions a skeptical jury would ask, one category each:
 8. Risk: "What's the biggest reason this fails?"
 9. Team: "Why are you the team to build this?"
 10. Theme: "How does this answer the challenge?"
+11. Impact: "Who is better off, and by how much?" (commonly used criterion)
+Screening warning: judges often get ~3 min per team and narrow to finalists first — the point must be clear in the first 60 seconds. (MLH Judging Plan)
 Then grade the team's answers 1–5 and give a tightened 2-sentence model answer for each weak one.
 </reference>
 
@@ -288,12 +305,18 @@ Judges score against the challenge. Map the idea to the theme statement in one s
 - Ask 5 people who match the target: "When did you last face X? What did you do?" (past behavior, not opinions)
 - Never ask "Would you use this?" — everyone says yes.
 - Record one real quote for the pitch.
+- **Bad data filter:** compliments, generalities ("I usually…") and future promises ("I would…") are not evidence. (Fitzpatrick, The Mom Test)
+- **Commitment signal:** an email for the waitlist, a pilot slot, a pre-payment or a calendar invite counts; praise does not. (Fitzpatrick, The Mom Test)
+- 5 short interviews cleaned of bad data beat 20 shallow ones — the hackathon version of "talk to users". [YORUM]
 </reference>
 
 <reference file="references/scope-discipline.md">
 # Scope Discipline Lens
 
 A product that keeps growing never ships. At a hackathon, an unfinished feature is worth **negative** points: it costs time and breaks the demo.
+
+## Riskiest assumption first
+In the first ~2 hours, write down the one assumption that kills the project if false (users want it, data exists, API works). The first KEEP item must test it. (Ries, Lean Startup)
 
 ## The Core Loop
 Define the single loop that proves value: **Input → Magic → Output** the user cares about.
@@ -339,6 +362,7 @@ Score 1–5 with a one-line justification. Never give 5 without evidence.
 | 5 | Business model | 15% | "Ads/freemium" with no logic | Clear payer, price anchor, plausible math |
 | 6 | Differentiation | 10% | "Uses AI" / "no competitors" | Sharp one-liner vs. named alternatives |
 | 7 | Demo readiness | 15% | Breaks / no fallback | ≤3 steps, seeded data, backup ready |
+| 9 | Impact | (bonus, unweighted) | Unclear who benefits | Named beneficiary, sized outcome (commonly used criterion) |
 | 8 | Pitch narrative | 10% | Tech-first, over time | Hook→problem→demo→money→ask, rehearsed |
 
 **Weighted total** = Σ(score × weight) → out of 5.
@@ -352,7 +376,31 @@ Score 1–5 with a one-line justification. Never give 5 without evidence.
 3. Anything being built that the jury won't see?
 4. Can the team say who pays and how much in one sentence?
 5. Is a demo fallback ready?
+6. Has the riskiest assumption been tested? (Ries, Lean Startup)
+7. Is there exactly one acquisition channel? (Weinberg & Mares, Traction)
 Output: 🟢/🟡/🔴 per item + the one thing to do next.
+</reference>
+
+<reference file="references/sources.md">
+# Sources
+
+Load only when the user asks where a rule comes from. Principles are paraphrased; book principles come from their widely known frameworks, not a full-text reading. Items tagged [YORUM] are our own hackathon adaptations and are not attributed to any source.
+
+| Principle (reference file) | Source |
+|---|---|
+| Riskiest assumption first; pivot gate (scope-discipline, time-boxing, scorecard) | Eric Ries, *The Lean Startup* (2011) — theleanstartup.com |
+| Optional Lean Canvas summary (business-model) | Ash Maurya, *Running Lean* — leanstack.com |
+| Bad data filter, commitment signals (problem-customer) | Rob Fitzpatrick, *The Mom Test* (2013) — momtestbook.com |
+| First 100 customers from one channel; channel mini-test (business-model, time-boxing, scorecard) | Weinberg & Mares, *Traction* (2015), Bullseye — tractionbook.com |
+| 5 parts of every business (business-model) | Josh Kaufman, *The Personal MBA* (2010) — personalmba.com |
+| Measurable difference, the "secret" (market-competition, pitch-demo) | Peter Thiel, *Zero to One* (2014) |
+| Default alive (business-model) | Paul Graham — paulgraham.com/aord.html |
+| Narrow start, manual first steps, growth focus | Paul Graham — paulgraham.com/ds.html, /startupideas.html, /schlep.html, /growth.html |
+| MVP planning | Michael Seibel, YC Library — ycombinator.com/library/6f-how-to-plan-an-mvp |
+| Startup fundamentals | Sam Altman, How to Start a Startup — startupclass.samaltman.com |
+| Short judging time per team, early screening (pitch-demo) | MLH Hackathon Organizer Guide, Judging Plan — guide.mlh.io |
+| Judging tips | Devpost — info.devpost.com/blog/hackathon-judging-tips |
+| Impact as a criterion (scorecard, pitch-demo) | Commonly used criterion; no single verified source |
 </reference>
 
 <reference file="references/time-boxing.md">
@@ -376,6 +424,9 @@ Build the plan from the remaining hours `T`. Percentages adapt to any length (24
 
 ## Checkpoints
 At 25%, 50%, 65%, 85%: run `/startup check`. If the core loop isn't working at 50%, cut scope immediately — do not "push through".
+
+**Pivot gate (~35%):** one decision — if validation is weak, change segment or problem now. After the gate, no pivots; feature freeze still applies to scope. (Ries, Lean Startup)
+**Channel mini-test:** in the last block, spend 1–2h testing the chosen channel (waitlist form, one community post) and show the number. (Weinberg & Mares, Traction — scaled down)
 
 ## Sleep
 For 24–48h events, a planned 3–4h sleep beats an all-nighter before the pitch. Put it in the plan.
